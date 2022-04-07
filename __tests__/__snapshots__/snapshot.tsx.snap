@@ -1,0 +1,81 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders homepage unchanged 1`] = `
+<div>
+  <div
+    class="MuiContainer-root MuiContainer-maxWidthLg containerBox css-1oqqzyl-MuiContainer-root"
+  >
+    <div
+      class="root"
+    >
+      <div
+        class="content"
+      >
+        <h1
+          class="MuiTypography-root MuiTypography-h4 MuiTypography-gutterBottom css-1vw6mcs-MuiTypography-root"
+        >
+          NASA GAME
+        </h1>
+      </div>
+      <div
+        class="root"
+      >
+        <div
+          class="balanceBox"
+        >
+          <div
+            class="root"
+          >
+            <div
+              class="name"
+            >
+              YOLLAR balance
+            </div>
+            <div
+              class="amountBox"
+            >
+              <img
+                class="icon"
+                src="/images/coin.png"
+              />
+              <span
+                class="amount"
+              >
+                0
+              </span>
+            </div>
+          </div>
+          <div
+            class="root"
+          >
+            <div
+              class="name"
+            >
+              Wallet balance
+            </div>
+            <div
+              class="amountBox"
+            >
+              <img
+                class="icon"
+                src="/images/coin.png"
+              />
+              <span
+                class="amount"
+              >
+                1000
+              </span>
+            </div>
+          </div>
+          <div
+            class="manage"
+          >
+            Manage
+          </div>
+        </div>
+        <div />
+      </div>
+    </div>
+  </div>
+</div>
+`;
