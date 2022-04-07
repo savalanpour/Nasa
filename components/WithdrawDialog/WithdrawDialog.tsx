@@ -6,7 +6,7 @@ import DialogContent from '@mui/material/DialogContent';
 import DialogTitle from '@mui/material/DialogTitle';
 import { DialogType } from '@/interface/balanceInterface';
 import styles from './WithdrawDialog.module.scss';
-import AppContext from '@/Context/AppContext';
+import AppContext from '@/context/AppContext';
 
 interface Props {
   open: string | null;

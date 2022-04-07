@@ -8,7 +8,7 @@ import {
   WithdrawFailedDialog,
 } from '@/components';
 import styles from './Balance.module.scss';
-import AppContext from '@/Context/AppContext';
+import AppContext from '@/context/AppContext';
 
 export default function Balance() {
   const [openDialog, setOpenDialog] = useState<string | null>(null);
