@@ -1,0 +1,22 @@
+.root {
+  height: 110px;
+  display: flex;
+  padding: 15px 0;
+  background-image: url("../../public/images/footerImage.png");
+
+  .balanceBox {
+    background-color: #1d1e37;
+    display: flex;
+    border-radius: 10px;
+    padding: 5px;
+    margin: 0 20px;
+
+    .manage {
+      height: 100%;
+      margin: 5px 35px;
+      font-size: 12px;
+      cursor: pointer;
+      color: #A9AFEF;
+    }
+  }
+}

@@ -1,0 +1,14 @@
+.root {
+  flex: 1;
+  font-size: inherit;
+
+  &:before {
+    border-bottom: none;
+  }
+  &:hover:not(.Mui-disabled):before {
+    border-bottom: none;
+  }
+  &::placeholder {
+    font-size: inherit;
+  }
+}

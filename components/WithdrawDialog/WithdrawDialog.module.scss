@@ -1,0 +1,83 @@
+.manage {
+  height: 100%;
+  margin: 5px 35px;
+  font-size: 12px;
+  cursor: pointer;
+  color: #a9afef;
+}
+.header {
+  font-size: 20px;
+  text-align: center;
+}
+
+.closeIcon {
+  position: absolute;
+  top: 23px;
+  right: 15px;
+  width: 20px;
+  background-color: #fa857b;
+  padding: 3px;
+  cursor: pointer;
+}
+
+.backIcon {
+  position: absolute;
+  top: 23px;
+  left: 15px;
+  width: 20px;
+  background-color: #fa857b;
+  padding: 3px;
+  cursor: pointer;
+}
+
+.content {
+  .title {
+    font-size: 12px;
+    margin: 15px 0 3px;
+    font-weight: bold;
+  }
+  .error {
+    font-size: 12px;
+    margin: 10px 0 -15px 0px;
+    text-align: center;
+    color: #d03d31;
+  }
+  .inputBox {
+    padding: 5px 10px 0;
+    background-color: white;
+    border-radius: 25px;
+    font-size: 14px;
+    font-weight: bold;
+    display: flex;
+    .valueItem {
+      margin-bottom: 10px;
+    }
+  }
+  .titleInfo {
+    font-size: 12px;
+    margin: 25px 0 0;
+    font-weight: bold;
+    padding-bottom: 15px;
+    border-bottom: 2px solid #fa857b;
+  }
+
+  .contentInfo {
+    font-size: 12px;
+    width: 300px;
+  }
+
+  .action {
+    display: flex;
+    margin-top: 15px;
+
+    .deposit {
+      background-color: #7653eb;
+      color: #ffffff;
+    }
+    .disabledDeposit {
+      background-color: #7653eb80;
+      color: #ffffff;
+      cursor: default;
+    }
+  }
+}
